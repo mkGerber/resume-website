@@ -1,0 +1,85 @@
+.appHeader {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-top: 0;
+}
+
+.headerText {
+  color: white;
+  flex: 8;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.buttonGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttonGroup button {
+  background-color: #282c34;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 70px;
+}
+
+.buttonGroup button:hover {
+  background-color: #61dafb;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.topText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.uploadSections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.uploadResume, .uploadJob {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #edeef3;
+  height: 600px;
+  border-radius: 10px;
+  border-color: #909399;
+  border-width: 2px;
+  border-style: solid;
+  margin: 0px 10px;
+}
+
+.customFileButton {
+  background-color: #282c34;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.customFileButton:hover {
+  background-color: #61dafb;
+  transform: scale(1.05);
+}
